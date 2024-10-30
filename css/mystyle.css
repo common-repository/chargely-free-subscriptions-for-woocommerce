@@ -1,0 +1,24 @@
+/* .woocommerce-page .woocommerce-cart-form table.shop_table_responsive button[name=update_cart] {
+    padding: 1rem 2rem;
+    border: 2px solid #ebe9eb;
+    margin: 0;
+    display: none;
+} */
+
+.woocommerce-page label {
+    display: flex;
+    align-items: center;
+}
+
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--log-history a:before {
+    content: "\f21b"
+}
+
+.woocommerce .quantity input[type=number] {
+    width: 5em;
+    /* woocommernce 3em */
+}
+
+#woocommerce-order-items .add-items .button {
+    display: none;
+}
